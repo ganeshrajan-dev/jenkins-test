@@ -1,2 +1,2 @@
 Testing
-the Jenknins files trigger from jenknisfile
+the Jenknins files trigger from jenknisfile.
