@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages{
+        stage("Git"){
+            steps{
+                checkout scm
+            }
+        }
+        stage("excuting"){
+            steps{
+                echo "Git COnnection Success"
+            }
+        }
+    }
+    post{
+        success{
+            echo "Pipelien completed"
+        }
+    }
+}
